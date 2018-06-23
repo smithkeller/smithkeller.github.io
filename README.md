@@ -1,2 +1,1 @@
 # smithkeller.github.io
-redeploy
