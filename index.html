@@ -15,11 +15,8 @@
 	<body>
 		<nav class="navbar navbar-light sticky-top navbar-expand-lg">
 			<img src="images/nav-logo.png" height="30" class="d-inline-block align-top" alt="">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<div class="ml-auto">
 				<ul class="navbar-nav nav ml-auto nav-pills">
 					<form class="form-inline">
 						<button class="btn btn-outline-success" type="button">Do-Good Directory</button>
@@ -30,31 +27,67 @@
 
 		<div class="content-section-1 col-md-8 offset-md-2">
 			<div class="title">
-				Do Good. More.
+				Do. Good. More.
 			</div>
 			<div class="text">
 					Smith & Keller puts the spotlight on mission driven companies whose aim is to benefit society.  People care about the companies they work for and want a larger mission than to just turn a profit.<br><br>
-					<a href=""><i class="fas fa-angle-double-down"></i> Learn More</a>
+					<a id="jumper-1"><i class="fas fa-angle-double-down"></i> Learn More</a>
 			</div>
 		</div>
 
 		<img class="content-divider" src="images/background.svg" alt="">
 
-		<div class="content-section-2 col-md-12">
+		<div class="content-section-2 col-md-12" id="content-jump-1">
 			<div class="section-header col-md-8 offset-md-2">
 				<div class="title">
 					Where you work matters.
 				</div>
 				<div class="text">
-					Smith & Keller puts the spotlight on mission driven companies whose aim is to benefit society.  People care about the companies they work for and want a larger mission than to just turn a profit.
+					What does "Social Good" mean? A company that either produces a socially responsible product or has programs in place to benefit the local or global community.
+					<div class="industries-header">
+						Featured Industries
+					</div>
+					<div class="industries row">
+						<div class="col-md-4">
+							Sustainable Agriculture<br>
+							Education Reform<br>
+							Microlending
+						</div>
+						<div class="col-md-4">
+							Renewable Energy<br>
+							Healthcare<br>
+							Advocacy/Activism
+						</div>
+						<div class="col-md-4">
+							Human Rights<br>
+							Resource Conservation<br>
+							Developing Nations
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 
+		<div class="content-section-3 col-md-8 offset-md-2">
+			<div class="title">
+				Do. Good. More.
+			</div>
+			<div class="text">
+					All of our featured Do-Gooders are either building a product or service for the "Social Good" or they have impactful social responsibility programs.<br><br>
+					<a href=""><i class="fas fa-search"></i> View the Directory</a>
+			</div>
+		</div>
 
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>	
 	</body>
 
 </html>
+
+<script>
+	$("#jumper-1").click(function() {
+    $("body, html").animate({scrollTop: $("#content-jump-1").offset().top - 200});
+  });
+</script>

@@ -22,6 +22,7 @@ body {
 }
 .content-section-1 {
 	padding: 4em 0em;
+	min-height: 50vh;
 }
 .content-section-1 .title {
 	font-size: 5em;
@@ -33,18 +34,54 @@ body {
 }
 .content-section-1 .text a {
 	color: #21AD09;
+	cursor: pointer;
 }
 .content-section-2 {
 	background-color: #21AD09;
 	color: #FFFFFF;
-	min-height: 50vh;
+	padding-bottom: 5em;
 }
-.content-section-2 .title {
+.content-section-2 .title, .content-section-3 .title {
 	font-size: 3em;
 	font-weight: bold;
-	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
-.content-section-2 .text {
+.content-section-2 .text, .content-section-3 .text {
 	font-size: 2em;
 	font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+.content-section-2 .text .industries-header {
+	margin-top: 2em;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+.content-section-2 .text .industries {
+	font-size: .5em;
+	font-family: 'Raleway', Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+.content-section-3 {
+	padding: 4em 0em;
+}
+.content-section-3 .title {
+	font-size: 3em;
+	font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+.content-section-3 .text {
+	font-size: 2em;
+	font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+.content-section-3 .text a {
+	color: #21AD09;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+	.content-section-1 .title {
+		font-size: 9em !important;
+		font-family: 'Raleway', Arial, Helvetica, sans-serif;
+	}
+	.content-section-1 .text {
+		font-size: 3em !important;
+	}
 }
