@@ -1,0 +1,38 @@
+.directory-header {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+	padding: 4em 0em;
+}
+.directory-header .header {
+	font-size: 5em;
+}
+.directory-header .sub-header {
+	font-size: 1.5em;
+}
+.dg-container .col-md-6 {
+	float: left;
+}
+.dg-container .dg-block {
+	margin-bottom: 4em;
+}
+.dg-container .dg-logo img {
+	max-width: 100%;
+}
+.dg-container .dg-stats .name {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.dg-container .dg-stats .description {
+	font-family: 'Raleway', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.dg-container .dg-stats .tech {
+	margin-top: 1em;
+}
+.dg-container .dg-stats .tech .title {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.dg-container .dg-stats .tech .techs {
+	font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
