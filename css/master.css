@@ -84,8 +84,11 @@ body {
 }
 
 @media only screen and (max-device-width: 768px) {
-	.content-section-1 .title {
+	.content-section-1 .title, .content-section-2 .title, .content-section-3 .title {
 		font-size: 3em;
+	}
+	.content-section-1 .text, .content-section-2 .text, .content-section-3 .text {
+		font-size: 1em;
 	}
 	.content-section-1, .content-section-2, .content-section-3 {
 		padding-left: 1em;

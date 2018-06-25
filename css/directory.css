@@ -43,4 +43,10 @@
 		padding-left: 1em;
 		padding-right: 1em;
 	}
+	.directory-header .header {
+		font-size: 3em;
+	}
+	.directory-header .sub-header {
+		font-size: 1.5em;
+	}
 }
