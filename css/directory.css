@@ -37,3 +37,10 @@
 .dg-container .dg-stats .tech .techs {
 	font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
+
+@media only screen and (max-device-width: 768px) {
+	.directory-header {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}

@@ -2,6 +2,27 @@ body {
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
+.navigation {
+	width: 100%;
+	padding: .5em;
+	position: fixed;
+	top: 0;
+	background-color: #FFFFFF;
+	z-index: 10;
+}
+.navigation .logo {
+	float: left;
+	padding-top: 2px;
+}
+.navigation .menu {
+	float: right;
+}
+.navigation .small-menu {
+	display: none;
+}
+.navigation .big-menu {
+	display: block;
+}
 .navbar {
 	background-color: #FFFFFF;
 }
@@ -78,11 +99,14 @@ body {
 }
 
 @media only screen and (max-device-width: 768px) {
-	.content-section-1 .title {
-		font-size: 9em !important;
-		font-family: 'Raleway', Arial, Helvetica, sans-serif;
+	.content-section-1, .content-section-2, .content-section-3 {
+		padding-left: 1em;
+		padding-right: 1em;
 	}
-	.content-section-1 .text {
-		font-size: 3em !important;
+	.navigation .small-menu {
+		display: block;
+	}
+	.navigation .big-menu {
+		display: none;
 	}
 }
