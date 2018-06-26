@@ -1,0 +1,49 @@
+.company-detail {
+	padding: 5em 0em 0em;
+	margin-bottom: -3em;
+}
+.company-detail .detail-container .name {
+	font-size: 3em;
+	font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+.company-detail .detail-container .detail .title {
+	font-size: 1em;
+	font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+.company-detail .detail-container .detail .value {
+	font-size: 1em;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+.company-detail .detail-container .logo img {
+	max-height: 100%;
+	max-width: 100%;
+}
+.company-info {
+	background-color: #21AD09;
+	color: #FFFFFF;
+	padding-bottom: 3em;
+}
+.company-info .section {
+	margin-bottom: 3em;
+}
+.company-info .section .header {
+	font-size: 3em;
+	font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+.company-info .section .text {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+.company-info .section .contact {
+	font-family: 'Raleway', Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+}
+.company-info .section .contact a {
+	color: #FFFFFF;
+}
+
+@media only screen and (max-device-width: 768px) {
+	.company-detail {
+		padding: 5em 0em 2em;
+		margin-bottom: 0em;
+	}
+}

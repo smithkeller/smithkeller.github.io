@@ -9,10 +9,11 @@ body {
 	top: 0;
 	background-color: #FFFFFF;
 	z-index: 10;
+	box-shadow: 1px 1px 2px 2px #d8d8d8;
 }
 .navigation .logo {
 	float: left;
-	padding-top: 2px;
+	padding-top: 4px;
 }
 .navigation .menu {
 	float: right;
@@ -46,7 +47,7 @@ body {
 .content-section-2 {
 	background-color: #21AD09;
 	color: #FFFFFF;
-	padding-bottom: 5em;
+	padding-bottom: 6em;
 }
 .content-section-2 .title, .content-section-3 .title {
 	font-size: 3em;
@@ -57,15 +58,10 @@ body {
 	font-size: 2em;
 	font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
-.content-section-2 .text .industries-header {
-	margin-top: 2em;
-	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-	text-align: center;
-}
 .content-section-2 .text .industries {
-	font-size: .5em;
+	margin-top: 1em;
+	font-size: .75em;
 	font-family: 'Raleway', Arial, Helvetica, sans-serif;
-	text-align: center;
 }
 .content-section-3 {
 	padding: 4em 0em;
@@ -82,6 +78,14 @@ body {
 	color: #21AD09;
 	cursor: pointer;
 }
+.footer {
+	text-align: center;
+	padding: 2em 0em;
+	font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+.footer a {
+	color: #404040;
+}
 
 @media only screen and (max-device-width: 768px) {
 	.content-section-1 .title, .content-section-2 .title, .content-section-3 .title {
@@ -93,6 +97,12 @@ body {
 	.content-section-1, .content-section-2, .content-section-3 {
 		padding-left: 1em;
 		padding-right: 1em;
+	}
+	.content-section-2 .text .industries-header {
+		font-size: 3em;
+	}
+	.content-section-2 .text .industries {
+		font-size: 1em;
 	}
 	.navigation .small-menu {
 		display: block;

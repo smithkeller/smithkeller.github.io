@@ -11,6 +11,9 @@
 .dg-container .col-md-6 {
 	float: left;
 }
+.dg-container a{
+	color: #000000;
+}
 .dg-container .dg-block {
 	margin-bottom: 4em;
 }
