@@ -10,7 +10,7 @@ You'll need all the information for the new company, including a company image/l
 
 ![UPLOAD](https://github.com/smithkeller/smithkeller.github.io/blob/master/documentation/images/upload.png)
 
-- Select “choose your files” and upload the company’s logo that you had saved on your computer.
+- Select “choose your files” and upload the company’s logo that you had saved on your computer.  Remember what the name of the file once its uploaded (ie. harrys.jpg).
 
 ### 2. Copy profile template and create new page.
 - Navigate to `/profiles/template.html` and copy the contents of the file.
@@ -28,7 +28,7 @@ You'll need all the information for the new company, including a company image/l
 ![NEW FILE](https://github.com/smithkeller/smithkeller.github.io/blob/master/documentation/images/newfile.png)
 
 - Update the content with the necessary company information.
-> You may need to delete/add sections based on the information you have based on that company.
+> You may need to delete/add sections based on the information you have on the new company.  Places that require updates are called out with text like "COMPANY NAME" and "STOCKIMAGE".  Make sure to replace the STOCKIMAGE.png with the name and extension of the image that you uploaded in Step 1.
 
 - Scroll to the bottom of the page and select "Commit new file".  Leave the "Commit directly to the `master` branch." option selected.
 
