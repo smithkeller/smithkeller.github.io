@@ -7,22 +7,25 @@ You'll need all the information for the new company, including a company image/l
 
 ### 1. Upload company logo.
 - Navigate to `/images/clients` folder and select “Upload Files”
+
+![UPLOAD](https://github.com/smithkeller/smithkeller.github.io/blob/master/documentation/images/upload.png)
+
 - Select “choose your files” and upload the company’s logo that you had saved on your computer.
 
 ### 2. Copy profile template and create new page.
 - Navigate to `/profiles/template.html` and copy the contents of the file.
 
-IMAGE
+![UPLOAD](https://github.com/smithkeller/smithkeller.github.io/blob/master/documentation/images/template.png)
 
 > NOTE: Ensure line numbers aren't included in what you copy.  You just want the code.  If it's easier you can view the "Raw" format and copy it from there.
 
 - Once you have the contents of `template.html` copied, navigate back to the `/profiles` folder and select "Create new file".
 
-IMAGE
+![UPLOAD](https://github.com/smithkeller/smithkeller.github.io/blob/master/documentation/images/profiles.png)
 
 - Title the file with the company name (ie. companyname.html) and paste the text you copied from the `template.html` into the content section.
 
-IMAGE
+![UPLOAD](https://github.com/smithkeller/smithkeller.github.io/blob/master/documentation/images/newfile.png)
 
 - Update the content with the necessary company information.
 
