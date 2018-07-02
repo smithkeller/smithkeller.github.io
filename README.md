@@ -28,6 +28,7 @@ You'll need all the information for the new company, including a company image/l
 ![NEW FILE](https://github.com/smithkeller/smithkeller.github.io/blob/master/documentation/images/newfile.png)
 
 - Update the content with the necessary company information.
+> You may need to delete/add sections based on the information you have based on that company.
 
 - Scroll to the bottom of the page and select "Commit new file".  Leave the "Commit directly to the `master` branch." option selected.
 
