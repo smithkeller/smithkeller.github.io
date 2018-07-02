@@ -38,7 +38,7 @@ You'll need all the information for the new company, including a company image/l
 
 - Copy lines 39 - 51.  This is the section for a company profile in the directory.
 
-![LINES](https://github.com/smithkeller/smithkeller.github.io/blob/master/documentation/images/newfile.png)
+![LINES](https://github.com/smithkeller/smithkeller.github.io/blob/master/documentation/images/lines.png)
 
 - Find where the company your adding fits into the list of clients alphabetically, and paste what you copied from line 39 - 51 there.
 
