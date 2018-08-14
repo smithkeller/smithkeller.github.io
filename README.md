@@ -1,4 +1,4 @@
-# Smith and Keller Website
+# Find the Greater Good Website
 
 ## Adding New Clients
 
